@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './Component/Navbar/Navbar';
+import { IoSearch } from "react-icons/io5";
+import { SlBasket } from "react-icons/sl";
+import { FaRegUser } from "react-icons/fa";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar img='https://e7.pngegg.com/pngimages/483/415/png-clipart-samsung-simple-logo-icons-logos-emojis-iconic-brands.png'
+        navbarListLeft={['Shop', 'Mobile', 'TV & Audio', 'Appliances', 'Computing', 'Displays', 'Accessories', 'SmartThings']}
+        navbarListRight={['Explore', 'Support', 'For Businnes']}
+        navbarIconSearch={[<IoSearch />, <SlBasket />, <FaRegUser />]} />
     </div>
   );
 }

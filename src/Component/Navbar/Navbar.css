@@ -1,0 +1,78 @@
+/* SITE-HEADER */
+.site-header {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.site-header-container {
+    display: flex;
+    align-items: center;
+}
+
+.site-header-logo {
+    margin-right: 50px;
+    display: flex;
+}
+
+.site-header-logo-img {
+    width: 120px;
+    height: 25px;
+    background-color: inherit;
+}
+
+.site-header-sitenav {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.site-header-sitenav-list-left {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-right: auto;
+}
+
+.site-header-sitenav-link {
+    text-decoration: none;
+    color: #222;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.site-header-sitenav-link:hover {
+    color: #22222276;
+}
+
+.site-header-sitenav-list-right {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    gap: 20px;
+}
+
+
+.site-header-auth-wrapper {
+    position: relative;
+    margin-left: auto;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.site-header-auth-btn {
+    display: block;
+    display: flex;
+    border: none;
+    background-color: inherit;
+    color: #222;
+    font-size: 20px;
+}
