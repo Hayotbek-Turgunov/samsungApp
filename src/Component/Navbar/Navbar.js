@@ -1,7 +1,7 @@
 import './Navbar.css'
 
 
-function Navbar({ img, navbarListLeft, navbarListRight, navbarIconSearch }) {
+function Navbar({ img, navbarListLeft, navbarListRight, navbarIconSearch, navbarIconBars }) {
     console.log(navbarIconSearch);
     return (
         <div className='site-header'>
@@ -51,6 +51,8 @@ function Navbar({ img, navbarListLeft, navbarListRight, navbarIconSearch }) {
                             })
                         }
                     </ul>
+
+                    <button className='site-header-auth-toggle site-header-auth-btn'>{navbarIconBars}</button>
                 </div>
             </div>
         </div>

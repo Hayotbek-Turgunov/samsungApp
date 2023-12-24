@@ -1,0 +1,60 @@
+.aside-container {
+    background: url('../../Assets/aside-bg.webp');
+    background-repeat: no-repeat;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.aside-btn {
+    border: none;
+    padding: 11px 20px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 30px;
+    text-decoration: none;
+    position: relative;
+    top: 20px;
+}
+
+
+@media only screen and (max-width: 990px) {
+    .aside-container {
+        background: url('../../Assets/aside-mobile.webp');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+
+    .aside {
+        margin-top: 40px;
+    }
+
+    .aside-btn {
+        position: relative;
+        top: 90px;
+        left: 60px;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .aside-container {
+        height: 260px;
+    }
+
+    .aside-btn {
+        position: relative;
+        top: 60px;
+        left: 0;
+        font-size: 12px;
+    }
+}

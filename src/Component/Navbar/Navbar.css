@@ -75,4 +75,52 @@
     background-color: inherit;
     color: #222;
     font-size: 20px;
+    cursor: pointer;
+}
+
+.site-header-auth-toggle {
+    font-size: 25px;
+    margin-left: 15px;
+    display: none;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 1459px) {
+    .site-header-sitenav-link {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .site-header-sitenav-link {
+        font-size: 12px;
+    }
+
+    .site-header-sitenav-list-left {
+        display: flex;
+        gap: 20px;
+    }
+
+    .site-header-sitenav {
+        display: flex;
+        gap: 70px;
+    }
+}
+
+
+@media only screen and (max-width: 1220px) {
+    .site-header-sitenav {
+        display: none;
+    }
+
+    .site-header-auth-toggle {
+        display: block;
+        display: flex;
+    }
 }

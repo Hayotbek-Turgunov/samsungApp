@@ -1,0 +1,115 @@
+.samsung-search {
+    margin-bottom: 140px;
+}
+
+.samsung-search-container {
+    text-align: center;
+}
+
+.samsung-search-heading {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.fa-input {
+    position: absolute;
+    transform: translateX(-210px);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.samsung-search-input {
+    display: inline-block;
+    padding-left: 50px;
+    min-width: 480px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #22222206;
+    border: 1px solid #222;
+}
+
+.samsung-search-input-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.samsung-search-btn {
+    display: inline-block;
+    border: 1px solid #22222273;
+    padding: 10px 12px;
+    border-radius: 30px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    background-color: inherit;
+    cursor: pointer;
+}
+
+.samsung-search-btn:not(:last-child) {
+    margin-right: 10px;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .samsung-search {
+        margin-bottom: 100px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .samsung-search-heading {
+        font-size: 30px;
+    }
+
+    .samsung-search {
+        margin-bottom: 60px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .samsung-search-input {
+        display: inline-block;
+        padding-left: 50px;
+        min-width: 380px;
+        height: 46px;
+        border-radius: 30px;
+        background-color: #22222206;
+        border: 1px solid #222;
+    }
+
+    .fa-input {
+        position: absolute;
+        transform: translateX(-160px);
+        font-size: 20px;
+        cursor: pointer;
+    }
+}
+
+
+@media only screen and (max-width: 400px) {
+    .samsung-search-heading {
+        font-size: 22px;
+    }
+
+    .samsung-search-input {
+        display: inline-block;
+        padding-left: 50px;
+        min-width: 300px;
+        height: 40px;
+        border-radius: 30px;
+        background-color: #22222206;
+        border: 1px solid #222;
+    }
+
+    .fa-input {
+        position: absolute;
+        transform: translateX(-120px);
+        font-size: 20px;
+        cursor: pointer;
+    }
+}
