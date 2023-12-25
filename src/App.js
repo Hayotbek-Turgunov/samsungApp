@@ -20,6 +20,9 @@ import featuresPhoneImg from './Assets/featuresPhone-img.jpg'
 import Aside from './Component/Aside/Aside'
 import SamsungSearch from './Component/SamsungSearch/SamsungSearch';
 import SamsungDeck from './Component/SamsungDeck/SamsungDeck';
+import Footer from './Component/Footer/Footer';
+import footerCopyImg from './Assets/site-footer-copyright-img.avif'
+import footerCopyImg1 from './Assets/CompyrightImg.webp'
 
 
 
@@ -112,6 +115,38 @@ function App() {
 
       {/* SAMSUNG-DECK */}
       <SamsungDeck />
+
+      {/* SAMSUNG-FOOTER */}
+      <Footer footer_bottom={[
+        {
+          title: 'Shop',
+          list: ['Phones', 'Tablets', 'Watches', 'Accessories', 'Mobile Audio',
+            'TV & Home Theater', 'Computing', 'Monitors', 'Memory & Storgae', 'Home Appliances',
+            'Smart Home', 'Samsung Experience Stories', 'Apps & Services', 'Shop Certificed Re-Newed',
+            'Samsung Authorized Reseller Program']
+        },
+
+        {
+          title: 'Support',
+          list: ['Chat with Us', 'Product Help', 'Order Help', 'Your Accound', 'Register Your Product',
+            'Contact Us', 'Samsung Community', 'CEO Office', 'Give Your Opinion']
+        },
+        {
+          title: 'Offers',
+          list: ['Offers', 'Samsung Rewards', 'Referral Program', 'Education Offers Program', 'Government Offers Program',
+            'Military Offers Program', 'Employee offers Program', 'First Responders Offers Program', 'Businnes Offers Program',
+            'Galaxy Campus Store']
+        },
+
+        {
+          title: 'Sustainability',
+          list: ['Overview', 'Environment', 'Digital Responsibility', 'Security and Privacy', 'Accessibility',
+            'Labor & Human Right', 'Diversity-Equity-Incusion', 'Sustainable Supply Chain', 'Corporate Citizenship',
+            'Corporate Sustainability']
+        }
+      ]}
+        Copyright={footerCopyImg1}
+      />
     </div>
   );
 }
